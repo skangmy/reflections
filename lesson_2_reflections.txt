@@ -11,13 +11,38 @@ This allows us the flexibility to track files that we need
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Always check git status when Im done with a logic changes. I should be able to see
+all files that have been changed and add it to staging area then commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When we want to create an experimental version, or implement different version
+
 How do the diagrams help you visualize the branch structure?
+
+It shows the direct parent of each commit and make reachability clearer
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+All the changes that have been made in 2 branches are now available in one branch. 
+The diagram makes it easier to visualize that changes will be merged
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+auto merging 
+pros:
+- fast and save a lot of manual work having to go through lines of code
+- happens automatically
+
+cons:
+- some changes that we dont need/want may be merged too
+
+manual merging:
+pros:
+- more in control
+
+cons:
+- tedious
+- we may forget to merge 
