@@ -37,4 +37,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Branch is useful when we wanna make huge changes and wish not to affect existing code until it is complete.
+	Working on master branch still necessary if we are only making smaller changes / bug fixes
